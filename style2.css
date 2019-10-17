@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Vidaloka', serif;
+
+
+}
+
+.container{
+
+
+}
+
+.first{
+	background-image: url("../pirmas_pav.png");
+	background-size:     cover;        
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
+
+nav:first-child{
+	margin: 1%;
+}
+
+
+nav a{
+	color: black;
+	font-size: 0.5rem;
+
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 3rem;
+
+}
+
+i{
+	color: #dab33e;
+}
+
+.first a{
+	padding: 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
