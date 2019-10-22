@@ -1,47 +1,280 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Vidaloka', serif;
-
-
-}
-
-.container{
-
-
+	font-family: 'Lato', sans-serif;
 }
 
 .first{
-	background-image: url("../pirmas_pav.png");
-	background-size:     cover;        
+	background: #eee url("../pirmas3.png");
+	height: 700px;
+}
+
+.second{
+	background: #eee url("../Baltas_fonas.png");
+	height: 700px;
+}
+
+.third{
+	background: #eee url("../Bazilikas.png");
+	height: 700px;
+	background-size: auto;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fifth{
+	background: #eee url("../review.png");
+	height: 700px;
+	background-size: auto;
+	background-repeat: no-repeat;
+    background-position: center center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sixth{
+	background: #eee;
+	height: 700px;
+	background-size: auto;
+	background-repeat: no-repeat;
+    background-position: center center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer{
+	background: #191919;
+	height: 250px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.first, .second{     
     background-repeat:   no-repeat;
     background-position: center center;
-
+    
 }
 
-nav:first-child{
-	margin: 1%;
+.nav a{
+	padding-top: 40px;
 }
 
+.nav .logo{
+	padding-top: 20px;
+}
+
+.nav i{
+	padding-top: 55px;
+}
 
 nav a{
-	color: black;
-	font-size: 0.5rem;
+	color: #FFFFFF;
+	font-size: 21px;
+	font-family: "Gentium Book Basic", sans-serif;
+}
 
+nav a:hover{
+	color: #FFFFFF;
+	border-top: solid;
+}
+
+div.col-8, nav.navbar{
+	padding-right: 0px;
+}
+
+
+.social{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.heading{
+	text-align: center;
+	height: 400px;
+	padding: 10px;
+}
+
+h1, h2, h3, h5{
+	font-family: 'Yeseva One', cursive;
 }
 
 h1{
 	color: #FFFFFF;
-	font-size: 3rem;
+	font-size: 5rem;
+	size: 100%;
+	padding-top: 12%;
+}
 
+.heading img{
+	padding-top: 25px;
 }
 
 i{
 	color: #dab33e;
+	padding-left: 10px;
+	padding-top: 30%;
 }
 
-.first a{
-	padding: 0px;
-	color: #ffffff;
+.buttons a{
 	text-decoration: none;
+	color: #ffffff;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px solid;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.buttons div{
+	display: inline-block;
+	padding-top: 50px;	
+}
+
+.buttons .book a{
+	background-color: rgba(0,0,0, 0.7);
+	border-color: #000000; 
+	margin-right: 30px;
+}
+
+.buttons .menu a{
+	border-color: #ffffff;
+	background-color: rgba(255,255,255, 0.7); 
+}
+
+.second .container, .third .container, .container.fourth, .container.fifth, .container.sixth{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.container.footer{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.second_heading{
+	height: 70px;
+	color: #cc9900;
+}
+
+.third p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.third.logiukas{
+	padding-bottom: 20px;
+}
+
+.plate img{
+		height: 550px;
+		width: 500px;
+}
+
+.virejas img{
+	padding-left: 70px;
+}
+
+.ingredients{
+	padding: 70px;
+	background-color: rgba(0,0,0, 0.5);
+	color: #ffffff;
+}
+
+.img-1 img , .img-2 img , .img-3 img{
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+}
+
+.fourth h2, h3, h5{
+	color: #cc9900;
+}
+
+.lmain, .rmain{
+	border-bottom: solid 1px #cc9900;
+}
+
+.lsecond{
+	font-size: 0.9rem;
+}
+
+.fourth p{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.fourth .col-sm {
+	padding-left: 0px;
+}
+
+.fourth h2{
+	padding-top: 30px;
+}
+
+.salads{
+	padding-top: 9px;
+}
+
+.fourth .logiukas{
+	padding-bottom: 30px;
+}
+
+.fifth h3{
+	color: #ffffff;
+}
+
+.reviews{
+	background-color: rgba(0,0,0, 0.8);
+}
+
+.main_review p{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 80px;
+	line-height: 2.5rem;
+	font-size: 20px;
+	font-family: "Gentium Book Basic", serif;
+}
+
+.reviews_heading{
+	padding-top: 50px;
+}
+
+
+.signature p{
+	font-size: 14px;
+	padding-bottom: 50px;
+
+}
+
+.sixth p{
+	color: #000;
+}
+
+.label p{
+	color: #cc9900;
+	margin-bottom: 0px;
+}
+
+.form{
+	padding-bottom: 25px;
+	margin-bottom: 0px;
+}
+
+.right_form{
+	padding-left: 40px;
+}
+
+.button_book{
+	margin-top: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color:  #cc9900;
+	border: none;
+	border-radius: 0px;
 }
